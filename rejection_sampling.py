@@ -39,7 +39,7 @@ load_dotenv(find_dotenv())
 SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_DIR.parent
 DEFAULT_LONGBENCH_DIR = Path(
-"/Users/ywu39/Downloads/research_experiment/LongBench"
+"/research_experiment/LongBench"
 )
 DEFAULT_DATA_FILE = DEFAULT_LONGBENCH_DIR / "longbench_medium.json"
 DEFAULT_BASELINE2_FILE = (
